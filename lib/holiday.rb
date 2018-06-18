@@ -21,8 +21,10 @@ def second_supply_for_fourth_of_july(holiday_hash)
   require 'pry'
   str =""
   holiday_supplies.each do |key,value|
-    value
-    binding.pry
+    #key is time of year, value will be holiday
+    value.each do |holiday,supply|
+      #needs to go to each holiday and check for the fourth of July
+      
   end
   str
 end
