@@ -24,7 +24,10 @@ def second_supply_for_fourth_of_july(holiday_hash)
     #key is time of year, value will be holiday
     value.each do |holiday,supply|
       #needs to go to each holiday and check for the fourth of July
-      
+      if holiday == :fourth_of_july
+        str = supply[1]
+      end
+    end
   end
   str
 end
