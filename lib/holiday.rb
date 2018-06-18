@@ -90,7 +90,7 @@ def all_supplies_in_holidays(holiday_hash)
           holiday = "Memorial Day"
           puts "  #{holiday}: #{supply.join(", ")}"
         elsif holiday == :fourth_of_july
-          holiday = "Fouth of July"
+          holiday = "Fouth Of July"
           puts "  #{holiday}: #{supply.join(", ")}"
         else
           puts "  #{holiday.capitalize}: #{supply.join(", ")}"
