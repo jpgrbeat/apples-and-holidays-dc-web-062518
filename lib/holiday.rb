@@ -83,6 +83,9 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_supplies.each do |key,value|
     puts "#{key.capitalize}:"
     value.each do |holiday,supply|
+        if holiday == :new_years
+          holiday = "New Years"
+        end
       puts "  #{holiday.capitalize}: #{supply.join(", ")}"
     end
   end
